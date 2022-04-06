@@ -29,8 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="8글자 이상 입력"
-        android:inputType="textPassword"
-        />
+        android:inputType="textPassword" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,8 +42,29 @@
         android:hint="한 줄로 입력"
         android:inputType="textEmailAddress"
         android:singleLine="true"
-        android:imeOptions="actionGo"
-        />
+        android:imeOptions="actionGo" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개 안 함" />
+
+    </RadioGroup>
 
     <CheckBox
         android:layout_width="wrap_content"
